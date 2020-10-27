@@ -3,7 +3,7 @@
 */
 
 
-// 7. Tableau à deux dimensions
+// 8. Tableau à deux dimensions
 
 /* 
 Chaque élément d'un tableau peut lui-même être un tableau.
@@ -28,7 +28,7 @@ mines[0][3] // ………………………………………………………�
 
 
 /*
-EXERCICE : 
+EXERCICE 7 : 
 - Etape 1 : 
 	- récupérez la valeur qui se trouve à la deuxième ligne troisième colonne du tableau
 	- si cette valeur est 1, affichez "Pas de chance, vous avez explosé !",

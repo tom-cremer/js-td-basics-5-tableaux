@@ -7,7 +7,7 @@ RAPPELS :
 - une variable : un conteneur qui contient une seule valeur
 - les types primitifs = les booléens, les nombres et les chaînes de caractères
 TABLEAU (ARRAY) : 
-- Un tableau (Array) est un conteneur qui continent plusieurs valeurs
+- Un tableau (Array) est un conteneur qui contient plusieurs valeurs
 - Chaque élément du tableau est une valeur et chaque emplacement est numéroté par un indice
 - Pour les tableaux (Array), l’indice est un entier (il commence à zéro)
 - Array est un type composite
@@ -124,7 +124,7 @@ var tab = [0,1,2,3,4];
 tab.reverse(); // inverse l'ordre du tableau
 console.log(tab); 
 
-// 6. Manière classique de tester si une donnée se trouve dans un tableau
+// 7. Manière classique de tester si une donnée se trouve dans un tableau
 var isDesigner = john.indexOf('designer') === -1 ? 'John is NOT a designer' : 'John IS a designer';
 console.log(isDesigner);
 
