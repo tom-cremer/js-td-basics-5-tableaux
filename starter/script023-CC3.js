@@ -1,22 +1,15 @@
 /*****************************
 * 023 - TABLEAUX - CODING CHALLENGE 3
 */
-/*
-John et sa famille sont allés en vacances et sont allés dans trois restaurant différents.
-Les factures étaient de  $124, $48 et $268.
-
-Pour donner au serveur un pourboire correct, John a créé un calculateur de pourboire 
-(en tant que fonction).
-Il aime donner en guise de pourboire :
-- 20% de la facture si celle-ci est inférieure à $50,
-- 15% quand la facture est entre $50 et $200,
-- et 10% si la facture est supérieure à $200.
-
-À la fin, John aimerait avoir 2 tableaux :
-1) un qui contient tous les pourboires (pour chacune des factures)
-2) un qui contient les trois montants finaux payés (facture + pourboire).
-
-(RAPPEL: Pour calculer 20% d'une valeur, il suffit de multiplier la valeur par 20/100 = 0.2)
-
-BONNE CHANCE 😀
-*/
+// 1. Créez un tableau appelé 'factures' contenant les trois montants des factures.
+// 2. Créez une fonction appelée 'calculateurPourboire' prenant une facture comme argument.
+// 3. À l'intérieur de la fonction 'calculateurPourboire', utilisez des instructions conditionnelles pour calculer le pourboire en fonction du montant de la facture.
+//    - Si la facture est inférieure à $50, calculez 20% de la facture.
+//    - Si la facture est entre $50 et $200, calculez 15% de la facture.
+//    - Si la facture est supérieure à $200, calculez 10% de la facture.
+// 4. La fonction 'calculateurPourboire' devrait renvoyer le montant du pourboire.
+// 5. Créez un tableau vide appelé 'pourboires'.
+// 6. Créez un autre tableau vide appelé 'montantsFinaux'.
+// 7. Utilisez la fonction 'calculateurPourboire' pour calculer les pourboires pour chaque facture du tableau 'factures' et ajoutez-les au tableau 'pourboires'.
+// 8. Pour chaque facture, calculez le montant final payé en ajoutant le montant de la facture au montant du pourboire, puis ajoutez-le au tableau 'montantsFinaux'.
+// 9. Affichez les tableaux 'pourboires' et 'montantsFinaux' dans la console pour voir les résultats.
