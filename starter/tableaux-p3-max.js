@@ -11,3 +11,13 @@ Aide :
   - Si la valeur courante est supérieure à 'max', elle devient le nouveau 'max'.
 - Affichez le résultat.
 */
+
+const nombres = [3, 11, 7, 2, 9, 10];
+
+console.log(nombres);
+
+console.log(Math.max(...nombres));
+
+const nombres2 = [3, 11, 7, 2, 90, 10];
+
+console.log(Math.max(...nombres2));
